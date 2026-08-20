@@ -7,4 +7,4 @@ build:
 run:
 	docker run -p 4005:4005 -v $(PWD)/assets:/app/assets $(DOCKER_IMAGE):$(DOCKER_TAG)
 
-.PHONY: build run
+.PHONY: build run   
